@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="sass/swiper1.css"> -->
+    <title> Magazine - Figma </title>
+</head>
+
+<body>
+    <!--@@@@@@@@@@@@@@@@@@@@@@2 header  -->
+    <header class="header-container" id="home">
+        <div class="container">
+            <div class="header">
+                <div class="header-logo ">
+                    <h1 class=" red-font font-xxl normal">Magazine.</h1>
+                    <span class="font-md normal grey-font">A MAGAZINE THEME</span>
+                </div>
+
+                    <div class="header-navbar flex sp-b align ">
+
+                        <div class=" header-navbar-social">
+
+                            <div class=" icon facebook">
+                                <i class="fa fa-facebook"></i> <span>Facebook</span>
+
+                            </div>
+                            <div class="icon instagram">
+                                <i class="fa fa-instagram"></i> <span> Instagram</span>
+
+                            </div>
+
+
+                            <div class="icon linkedin">
+                                <i class="fa fa-linkedin"></i> <span>Linkdin</span>
+                            </div>
+                            <div class="icon twitter">
+                                <i class="fa fa-twitter"></i> <span> Twitter</span>
+                            </div>
+
+                        </div>
+                        <div class="header-navbar-list grey-font  ">
+                            <a class="nav font-md active  grey-font" href="#home">Home</a>
+                            <a class="nav font-md grey-font" href="#news">Latest News</a>
+                            <a class="nav font-md  grey-font" href="#fashion">Fashion</a>
+                            <a class="nav font-md grey-font" href="#travel">Travel</a>
+                            <a class="nav font-md grey-font" href="#event">Event</a>
+                        </div>
+                        <div class="header-navbar-search">
+                            <input type="search" name="" class="search" id="" placeholder="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="header-menu  hide-desktop">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+</div>
+
+
+
+
+
+            </div>
+    </header>
+    <!------------------------------//header --------------------------------------->
+    <!--@@@@@@@@@@@@@@@@@@@@@@ hero start -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content  grid ">
+                <div class="hero-content-left  feature-card main-card  ">
+                    <a href="#">
+                    <img src="image/hero.png" alt="" />
+
+                    </a>
+                    <div class="hero-card-content absolute main-card_text">
+                        <span class="red-bg-font">Fashion</span>
+                        <h2>
+                            <a href="#" class="font-xl white-text">The Hidden Mystery Behind Fashion</a>
+                        </h2>
+                        <p class="user-text  font-tiny white-text">
+                            <span><i class="fa fa-user "></i>Sunny Texazi</span>
+                            <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                25, 2022</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main-card ">
+                    <div class=" feature-card">
+                        <a href="#">
+                        <img src="image/hero2.png" alt="" />
+
+                        </a>
+                        <div class="hero-card-content absolute main-card_text ">
+                            <span class="red-bg-font">Fashion</span>
+                            <h3>
+                                <a href="#" class="font-lg white-text">The Hidden Mystery Behind Fashion</a>
+                            </h3>
+                            <p class="user-text  font-tiny white-text">
+                                <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                    25, 2022</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <img src="image/hero3.png" alt="" />
+                        <div class="hero-card-content absolute main-card_text">
+                            <span class="red-bg-font">Fashion</span>
+                            <h3>
+                                <a href="#" class="font-lg white-text">The Hidden Mystery Behind Fashion</a>
+                            </h3>
+                            <p class="user-text  font-tiny white-text flex">
+                                <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                    25, 2022</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!--@@@@@@@@@@@// hero section end------------------------ -->
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@ Article section start @@@@@@@@@@@@@@@@@@@@@@ -->
+    <article>
+        <div class="container">
+            <div class="container-hot-topic grid" id="fashion">
+                <div class="hot-topic ">
+                    <div class="hot-topic-title  title">
+                        <h3 class=" font-lg  blue-text semi-bold roboto-slab">Hot Topics</h3>
+                        <div class="line"></div>
+                        <p class="tab-link flex  font-md grey-font">
+                            <button class="nav-link active" data-show="all">All</button>
+                            <button class="nav-link" data-show="fashion1">Fashion</button>
+                            <button class="nav-link" data-show="travel">Travel</button>
+
+                        </p>
+                        <span class="slide-button grey-font">
+                            <i class="fa fa-angle-left  hot-topic-prev"></i>
+                            <i class="fa fa-angle-right hot-topic-next"></i>
+                        </span>
+                    </div>
+                    <!-- swiper start  -->
+                    <!-- all tab  -->
+                    <div class="swiper hot-topic-content-swiper show " id="all">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide flex">
+
+                                <div class="hot-topic-feature feature-card ">
+                                    <img src="image/hot-topic-feature.png" alt="" />
+                                    <div class="hot-topic-feature-text white-text absolute">
+                                        <p class="info font-tiny flex">
+                                            <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                            <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                2022</span>
+                                        </p>
+                                        <h3>
+                                            <a href="" class="white-text font-lg semi-bold roboto-slab">Intillegent
+                                                Strategies For The Entrepreneurially
+                                                Challenged</a>
+                                        </h3>
+                                        <p class="  font-md  popins">
+                                            There’s a growing community of digital world whe a
+                                            location-independenestyle.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="hot-topic-card flex">
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" my-10 blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic1.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic2.png" alt="" />
+                                        <div class="card-links-text font-tiny grey-font">
+                                            <p class="card-info">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic3.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class="card-links-title blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- next slide  -->
+                            <div class="swiper-slide flex" id="fashion">
+
+                                <div class="hot-topic-feature feature-card -card feature">
+                                    <img src="image/fashion-feature.png" alt="" />
+                                    <div class="hot-topic-feature-text white-text absolute">
+                                        <p class="info font-tiny flex">
+                                            <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                            <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                2022</span>
+                                        </p>
+                                        <h3>
+                                            <a href="" class="white-text font-lg semi-bold roboto-slab">Intillegent
+                                                Strategies For The Entrepreneurially
+                                                Challenged</a>
+                                        </h3>
+                                        <p class="  font-md  popins">
+                                            There’s a growing community of digital world whe a
+                                            location-independenestyle.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="hot-topic-card flex">
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" my-10 blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic1.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic2.png" alt="" />
+                                        <div class="card-links-text font-tiny grey-font">
+                                            <p class="card-info">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic3.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class="card-links-title blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- <div class="swiper-slide">
+                                <div class="fashion">
+                                    <div class="fashion-title">
+                                        <h3>Fashion</h3>
+                                        <span> <span>
+                                    </div>
+
+                                    <div class="main-card feature">
+                                        <img src="image/hot-topic3.png"
+                                            alt="">
+                                        <div class="feature-text  absolute">
+                                            <span class="red-bg-font">Fashion</span>
+                                            <a href="https://facebook.com" classks">How To Become Better With Magazine
+                                                In 10
+                                                Minutes</a>
+                                            <p class="info">
+                                                <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                                    25, 2022</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="wrap">
+                                            <img src="image/fsn2.png" alt="">
+                                            <div class="wrap-link">
+                                                <a href="">If Trends Is Bad, Follow this?</a>
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="wrap">
+                                            <img src="image/fashion3.png" alt="">
+                                            <div class="wrap-link">
+                                                <a href="">If Trends Is Bad, Follow this?</a>
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- fashion tab  -->
+                    <div class="swiper hot-topic-content-swiper " id="fashion1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide flex">
+
+                                <div class="hot-topic-feature feature-card -card feature">
+                                    <img src="image/fashion-feature.png" alt="" />
+                                    <div class="hot-topic-feature-text white-text absolute">
+                                        <p class="info font-tiny flex">
+                                            <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                            <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                2022</span>
+                                        </p>
+                                        <h3>
+                                            <a href="" class="white-text font-lg semi-bold roboto-slab">Intillegent
+                                                Strategies For The Entrepreneurially
+                                                Challenged</a>
+                                        </h3>
+                                        <p class="  font-md  popins">
+                                            There’s a growing community of digital world whe a
+                                            location-independenestyle.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="hot-topic-card flex">
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" my-10 blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic1.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic2.png" alt="" />
+                                        <div class="card-links-text font-tiny grey-font">
+                                            <p class="card-info">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic3.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class="card-links-title blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- next slide  -->
+                           
+                            <div class="swiper-slide">
+                                <div class="fashion">
+                                    <div class="fashion-title">
+                                        <h3>Fashion</h3>
+                                        <span> <span>
+                                    </div>
+
+                                    <div class="main-card feature-card">
+                                        <a href="#">
+                                        <img src="image/hero3.png" alt="">
+
+                                        </a>
+                                        <div class="feature-text absolute  ">
+                                            <span class="red-bg-font">Fashion</span>
+                                            <a href="https://facebook.com" class="white-text font-mmd roboto-slab">How To Become Better With Magazine
+                                                In 10
+                                                Minutes</a>
+                                            <p class="white-text font-tiny">
+                                                <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                                    25, 2022</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="wrap flex link-gap">
+                                            <a href="">
+                                            <img src="image/fsn2.png" alt="">
+
+                                            </a>
+                                            <div class="wrap-link">
+                                                <a href="" class="font-md blue-text ">If Trends Is Bad, Follow this?</a>
+                                                <span class="font-tiny grey-font"><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="wrap flex link-gap">
+                                            
+                                            <a href="#">
+                                            <img src="image/fashion3.png" alt="">
+
+                                            </a>
+                                            <div class="wrap-link">
+                                                <a href="" class="font-md blue-text">If Trends Is Bad, Follow this?</a>
+                                                <span class="font-tiny grey-font"><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- travel tabs -->
+                    <div class="swiper hot-topic-content-swiper show " id="travel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide flex">
+
+                                <div class="hot-topic-feature feature-card -card feature">
+                                    <a href="">
+                                    <img src="image/hero.png" alt="" />
+
+                                    </a>
+                                    <div class="hot-topic-feature-text white-text absolute">
+                                        <p class="info font-tiny flex">
+                                            <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                            <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                2022</span>
+                                        </p>
+                                        <h3>
+                                            <a href="" class="white-text font-lg semi-bold roboto-slab">Intillegent
+                                                Strategies For The Entrepreneurially
+                                                Challenged</a>
+                                        </h3>
+                                        <p class="  font-md  popins">
+                                            There’s a growing community of digital world whe a
+                                            location-independenestyle.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="hot-topic-card flex">
+                                    <div class="card-links flex">
+                                        <a href="">
+                                            <img src="image/hot-topic.png" alt="" />
+                                            
+                                        </a>
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" my-10 blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <a href="#">
+                                        <img src="image/hot-topic1.png" alt="" />
+
+                                        </a>
+                                        <div class="card-links-text">
+
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <a href="">
+                                        <img src="image/hot-topic2.png" alt="" />
+
+                                        </a>
+                                        <div class="card-links-text font-tiny grey-font">
+                                            <p class="card-info">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <a href="">
+                                        <img src="image/hot-topic3.png" alt="" />
+
+                                        </a>
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class="card-links-title blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- next slide  -->
+                            <div class="swiper-slide flex" id="fashion">
+
+                                <div class="hot-topic-feature feature-card -card feature">
+                                    <a href="">
+                                    <img src="image/hero.png" alt="" />
+
+                                    </a>
+                                    <div class="hot-topic-feature-text white-text absolute">
+                                        <p class="info font-tiny flex">
+                                            <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                            <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                2022</span>
+                                        </p>
+                                        <h3>
+                                            <a href="" class="white-text font-lg semi-bold roboto-slab">Intillegent
+                                                Strategies For The Entrepreneurially
+                                                Challenged</a>
+                                        </h3>
+                                        <p class="  font-md  popins">
+                                            There’s a growing community of digital world whe a
+                                            location-independenestyle.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="hot-topic-card flex">
+                                    <div class="card-links flex">
+                                        <a href="">
+                                        <img src="image/hot-topic.png" alt="" />
+
+                                        </a>
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" my-10 blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic1.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic2.png" alt="" />
+                                        <div class="card-links-text font-tiny grey-font">
+                                            <p class="card-info">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class=" blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-links flex">
+                                        <img src="image/hot-topic3.png" alt="" />
+                                        <div class="card-links-text">
+                                            <p class="card-info  font-tiny grey-font">
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </p>
+                                            <a href="#" class="card-links-title blue-text font-md semi-bold">
+                                                About Beauty They Are Still Keeping From You
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="fashion">
+                                    <div class="fashion-title">
+                                        <h3>Fashion</h3>
+                                        <span> <span>
+                                    </div>
+
+                                    <div class="main-card feature">
+                                        <img src="image/hot-topic3.png" alt="">
+                                        <div class="feature-text  absolute">
+                                            <span class="red-bg-font">Fashion</span>
+                                            <a href="https://facebook.com" classks">How To Become Better With Magazine
+                                                In 10
+                                                Minutes</a>
+                                            <p class="info">
+                                                <span><i class="fa fa-user"></i>Sunny Texazi</span>
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                                    25, 2022</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="wrap">
+                                            <img src="image/fsn2.png" alt="">
+                                            <div class="wrap-link">
+                                                <a href="">If Trends Is Bad, Follow this?</a>
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="wrap">
+                                            <img src="image/fashion3.png" alt="">
+                                            <div class="wrap-link">
+                                                <a href="">If Trends Is Bad, Follow this?</a>
+                                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                                    2022</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- news end  -->
+                <div class="hot-topic-fashion">
+                    <div class="hot-fashion-title title">
+                        <h3 class=" blue-font font-lg semi-bold ">Fashion</h3>
+                        <span class="line"></span>
+                    </div>
+                    <div class="hot-topic-fashion-container">
+                        <div class="hot-fashion feature-card feature">
+                            <img src="https://www.careersportal.co.za/sites/default/files/styles/max_2600x2600/public/images/Terrique%20Faro/FEDISA.webp?itok=Aat_GHBo"
+                                alt="">
+                            <div class="absolute">
+                                <span class="red-bg-font">Fashion</span>
+                                <a href="https://facebook.com" class="font-lg white-text roboto-slab semi-bold ">How To
+                                    Become Better With Magazine In
+                                    10
+                                    Minutes</a>
+                                <p class="font-tiny white-text">
+                                    <span><i class="fa fa-user white-font"></i>Sunny Texazi</span>
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                        25, 2022</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/fsn2.png" alt="">
+                            <div class="ont-tiny grey-font flex">
+                                <a href="" class=" blue-text font-mmd semi-bold"> If Trends Is Bad, Follow this?</a>
+                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25, 2022</span>
+                            </div>
+
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/fsn2.png" alt="">
+                            <div class=" flex ont-tiny grey-font">
+                                <a href="" class="blue-text font-mmd semi-bold "> If Trends Is Bad, Follow this?</a>
+                                <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25, 2022</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@---gallery section  -->
+    <section class="g-sec">
+        <div class="container " id="gallery">
+            <div class="gallery-title title">
+                <h3 class="blue-text  font-lg semi-bold roboto-slab">Hot Topics</h3>
+                <div class="line"></div>
+                <span class="slide-button">
+                    <i class="fa fa-angle-left gallery-prev"></i>
+                    <i class="fa fa-angle-right gallery-next"></i>
+                </span>
+
+
+            </div>
+
+            <div class="gallery">
+                <div class="swiper gallery-swiper ">
+                    <div class="swiper-wrapper gallery-images ">
+                        <div class="swiper-slide gallery-images-slide">
+                            <div class="gallery-card feature-card ">
+                                <img src="image/gallery3.png" />
+                                <div class="gallery-card-content absolute ">
+                                    <span class="red-bg-font">Environment</span>
+                                    <a href="#" class="font-mmd white-text semi-bold">The source of Horizon bottled
+                                        water
+                                        is the subject of a
+                                        fierce feud.
+                                    </a>
+                                    <p class="white-text flex font-tiny">
+                                        <span class=" name"> <i class="fa fa-user"></i> Sussane </span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                            25, 2022</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide  gallery-images-slide ">
+                            <div class="gallery-card feature-card ">
+                                <img src="image/gallery1.png" />
+                                <div class="gallery-card-content absolute ">
+                                    <span class="red-bg-font">Environment</span>
+                                    <a href="#" class="font-mmd white-text semi-bold">The source of Horizon bottled
+                                        water
+                                        is the subject of a
+                                        fierce feud.
+                                    </a>
+                                    <p class="white-text flex  font-tiny">
+                                        <span class=" name"> <i class="fa fa-user"></i> Sussane </span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                            25, 2022</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide  gallery-images-slide ">
+                            <div class="gallery-card feature-card">
+                                <img src="image/gallery2.png" />
+                                <div class="gallery-card-content absolute ">
+                                    <span class="red-bg-font">Environment</span>
+                                    <a href="#" class="font-mmd white-text semi-bold">The source of Horizon bottled
+                                        water
+                                        is the subject of a
+                                        fierce feud.
+                                    </a>
+                                    <p class="white-text flex  font-tiny">
+                                        <span class=" name"> <i class="fa fa-user"></i> Sussane </span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                            25, 2022</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide  gallery-images-slide">
+                            <div class="gallery-card feature-card card1">
+                                <img src="image/gallery3.png" />
+                                <div class="gallery-card-content absolute ">
+                                    <span class="red-bg-font">Environment</span>
+                                    <a href="#" class="font-mmd white-text semi-bold">The source of Horizon bottled
+                                        water
+                                        is the subject of a
+                                        fierce feud.
+                                    </a>
+                                    <p class="white-text flex  font-tiny">
+                                        <span class=" name"> <i class="fa fa-user"></i> Sussane </span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                            25, 2022</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide  gallery-images-slide ">
+                            <div class="gallery-card feature-card ">
+                                <img src="image/gallery1.png" />
+                                <div class="gallery-card-content absolute ">
+                                    <span class="red-bg-font">Environment</span>
+                                    <a href="#" class="font-mmd white-text semi-bold">The source of Horizon bottled
+                                        water
+                                        is the subject of a
+                                        fierce feud.
+                                    </a>
+                                    <p class="white-text flex  font-tiny">
+                                        <span class=" name"> <i class="fa fa-user"></i> Sussane </span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                            25, 2022</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="swiper-slide gallery-images-slide">
+                            <div class="gallery-card feature-card card1">
+                                <img src="image/gallery.png" />
+                                <div class="gallery-card-content absolute ">
+                                    <span class="red-bg-font">Environment</span>
+                                    <a href="#" class="font-mmd white-text semi-bold">The source of Horizon bottled
+                                        water
+                                        is the subject of a
+                                        fierce feud.
+                                    </a>
+                                    <p class="white-text flex  font-tiny">
+                                        <span> <i class="fa fa-user"></i> Sussane </span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February
+                                            25, 2022</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@2 blog section @@@@@@@@@@@@@@@@222222 -->
+    <section>
+        <div class="container">
+            <div class="blog-container ">
+                <div class="blog blog-fashion">
+                    <div class="blog-catagories title">
+                        <h4 class="font-lg semi-bold blue-text">Fashion</h4>
+                        <span class="line"></span>
+                    </div>
+                    <div class="links-container">
+                        <div class="card-links flex">
+                            <img src="image/fashion1.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/fashion2.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/fashion3.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/fashion.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog blog-lifestyle">
+                    <div class="blog-catagories title">
+                        <h4 class="font-lg semi-bold blue-text">Life Style</h4>
+                        <span class="line"></span>
+                    </div>
+                    <div class="links-container">
+                        <div class="card-links flex">
+                            <img src="image/lifestyle.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/lifestyle1.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/lifestyle2.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/lifestyle3.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog blog-tech">
+                    <div class="blog-catagories title">
+                        <h4 class="font-lg semi-bold blue-text">Tech</h4>
+                        <span class="line"></span>
+                    </div>
+                    <div class="links-container">
+                        <div class="card-links flex">
+                            <img src="image/tech.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/tech2.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/tech3.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="image/fashion.png" alt="" />
+                            <div class="card-links-text">
+                                <p class="card-info  font-tiny grey-font">
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <a href="#" class=" blue-text font-md semi-bold">
+                                    About Beauty They Are Still Keeping From You
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!--  adverstisement here  -->
+            <div class="advertisement flex">
+                <div class="text font-lg bold blue-text roboto-slab">
+                    <h4 class="text font-lg bold blue-text roboto-slab">Checkout my recommended gadgets</h4>
+                    <p class="font-md blue-text normal ">Subscribe and get 15% OFF.</p>
+                </div>
+                <button class="btn primary-btn">Learn More</button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@2// blog section @@@@@@@@@@@@@@@@222222 -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@overview section -------------------------- -->
+    <section>
+        <div class="container" id="travel">
+            <div class="overview grid" id="news">
+                <div class="ov-links">
+
+                    <div class="overview-catagory title">
+                        <h4 class="font-lg blue-text semi-bold">Don’t Miss</h4>
+
+                        <p class="line"></p>
+                    </div>
+                    <div class="links-container">
+                        <div class="ov-link flex">
+                            <img src="image/ov3.png" alt="" />
+                            <div class="ov-link__text">
+                                <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                    Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                </a>
+                                <p class="font-tiny grey-font ">
+                                    <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <p class="font-md blue-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                    vitae ac
+                                    vel diam ipsum ...
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ov-link flex">
+                            <img src="image/overview1.png" alt="" />
+                            <div class="ov-link__text">
+                                <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                    Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                </a>
+                                <p class="font-tiny grey-font ">
+                                    <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <p class="font-md blue-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                    vitae ac
+                                    vel diam ipsum ...
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ov-link flex">
+                            <img src="image/ov4.png" alt="" />
+                            <div class="ov-link__text">
+                                <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                    Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                </a>
+                                <p class="font-tiny grey-font ">
+                                    <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <p class="font-md blue-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                    vitae ac
+                                    vel diam ipsum ...
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ov-link flex">
+                            <img src="image/ov5.png" alt="" />
+                            <div class="ov-link__text">
+                                <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                    Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                </a>
+                                <p class="font-tiny grey-font ">
+                                    <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <p class="font-md blue-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                    vitae ac
+                                    vel diam ipsum ...
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ov-link flex">
+                            <img src="image/overview.png" alt="" />
+                            <div class="ov-link__text">
+                                <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                    Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                </a>
+                                <p class="font-tiny grey-font ">
+                                    <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+                                <p class="font-md blue-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                    vitae ac
+                                    vel diam ipsum ...
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="links-container-show">
+                            <div class="ov-link flex">
+                                <img src="image/ov4.png" alt="" />
+                                <div class="ov-link__text">
+                                    <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                        Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                    </a>
+                                    <p class="font-tiny grey-font ">
+                                        <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                            2022</span>
+                                    </p>
+                                    <p class="font-md blue-text ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                        vitae ac
+                                        vel diam ipsum ...
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ov-link flex">
+                                <img src="image/ov5.png" alt="" />
+                                <div class="ov-link__text">
+                                    <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                        Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                    </a>
+                                    <p class="font-tiny grey-font ">
+                                        <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                            2022</span>
+                                    </p>
+                                    <p class="font-md blue-text ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                        vitae ac
+                                        vel diam ipsum ...
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ov-link flex">
+                                <img src="image/overview.png" alt="" />
+                                <div class="ov-link__text">
+                                    <a href="https://thehimalayantimes.com/" class="font-md blue-text semi-bold">
+                                        Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                    </a>
+                                    <p class="font-tiny grey-font ">
+                                        <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                            2022</span>
+                                    </p>
+                                    <p class="font-md blue-text ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet nunc eget.
+                                        vitae ac
+                                        vel diam ipsum ...
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loader"><img src="image/loader.gif" alt=""></div>
+                        <button class="btn loader-btn primary-btn"> <span> Load More</span></button>
+
+                    </div>
+
+                </div>
+                <!--@@@@@@@@@@@@@@@@@@@@@@@@@@ tech section start  -->
+                <div class="tech">
+                    <div class="tech-title title">
+                        <h4 class="font-lg  blue-text semi-bold">tech</h4>
+                        <span class="line"></span>
+
+                    </div>
+                    <!-- links container  -->
+                    <div class="tech-container">
+
+                        <div class="card  feature-card">
+                            <img src="image/hero2.png" alt="">
+                            <div class="white-text  absolute">
+                                <span class="tag red-bg-font ">Technology</span>
+                                <a href="#" class="font-mmd white-text">Prioritizing Your Trend To Get Your Business</a>
+                                <p class="font-tiny"> <span><i class="fa fa-user"></i>By Sunny Texazi</span>
+                                    <span><i class="fa fa-calendar-o"></i>February 14, 2022</span>
+
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex link-gap ">
+                            <img src="image/tech2.png " alt="" />
+                            <div>
+                                <a href="https://thehimalayantimes.com/" class="font-mmd blue-text ">
+                                    Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                </a>
+                                <p class="font-tiny grey-font">
+                                    <span>
+                                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                            2022</span>
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="flex link-gap">
+                            <img src="image/tech3.png" alt="" />
+                            <div>
+                                <a href="https://thehimalayantimes.com/" class="font-mmd blue-text ">
+                                    Hydro Flask water bottles are up to 30% discount, so stay hydrated.
+                                </a>
+                                <p class="font-tiny grey-font">
+
+                                    <span><i class="fa fa-calendar-o" aria-hidden="true"></i>February 25,
+                                        2022</span>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- popular-catagory --------------------------------- -->
+                    <div class="popular-catagory ">
+                        <div class="tech-title title">
+                            <h4 class="blue-text font-lg semi-bold">Popular Categories</h4>
+                            <span class="line"></span>
+
+                        </div>
+                        <div class="list">
+                            <a href="#" class=" font-md blue-text semi-bold">
+                                <p class="table flex sp-b"><span>Technology</span><span>6</span></p>
+
+                            </a>
+                            <a href="" class=" font-md blue-text semi-bold">
+                                <p class="table  flex sp-b"><span>Science</span><span>15</span></p>
+
+                            </a>
+                            <a href="#" class=" font-md blue-text semi-bold">
+                                <p class="table  flex sp-b"><span>Gaming</span><span>9</span></p>
+
+                            </a>
+                            <a href="#" class=" font-md blue-text semi-bold">
+                                <p class="table  flex sp-b"><span>Gadget</span><span>12</span></p>
+
+                            </a>
+                            <a href="#" class=" font-md blue-text semi-bold">
+                                <p class="table  flex sp-b"><span>Science</span><span>8</span></p>
+
+                            </a>
+
+
+                        </div>
+                    </div>
+
+
+                    <!-- recent post --------------------------- -->
+
+                    <div class="recent">
+                        <div class="tech-title title">
+                            <h4 class="font-lg blue-text semi-bold">Recent</h4>
+                            <span class="line"></span>
+
+                        </div>
+
+                        <div class="links-container">
+                            <div class="flex link-gap">
+                                <img src="image/tech2.png" alt="tech">
+                                <div class="text">
+                                    <h4><a href="https://theuselessweb.com/" class="font-md blue-text ">Associated with
+                                            online buying, which is an
+                                            issue. </a></h4>
+                                    <span class="font-tiny grey-font"><i class="fa fa-calendar-o"></i>February 14,
+                                        2022</span>
+                                </div>
+                            </div>
+
+                            <div class="flex link-gap">
+                                <img src="image/tech3.png" alt="tech">
+                                <div class="text">
+                                    <h4><a href="https://theuselessweb.com/" class="font-md blue-text ">Associated with
+                                            online buying, which is an
+                                            issue. </a></h4>
+                                    <span class="font-tiny grey-font"><i class="fa fa-calendar-o"></i>February 14,
+                                        2022</span>
+                                </div>
+                            </div>
+                            <div class="flex link-gap">
+                                <img src="image/fashion3.png" alt="tech">
+                                <div class="text">
+                                    <h4><a href="https://theuselessweb.com/" class="font-md blue-text ">Associated with
+                                            online buying, which is an
+                                            issue. </a></h4>
+                                    <span class="font-tiny grey-font"><i class="fa fa-calendar-o"></i>February 14,
+                                        2022</span>
+                                </div>
+                            </div>
+
+                            <div class="flex link-gap">
+                                <img src="image/tech2.png" alt="tech">
+                                <div class="text">
+                                    <h4><a href="https://theuselessweb.com/" class="font-md blue-text ">Associated with
+                                            online buying, which is an
+                                            issue. </a></h4>
+                                    <span class="font-tiny grey-font"><i class="fa fa-calendar-o"></i>February 14,
+                                        2022</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!--  footer start ---------------------------------- -->
+
+
+    <footer class="bg-black">
+        <div class="container">
+            <div class="footer white-text flex">
+                <div class="footer-logo">
+                    <h1 class=" red-font font-xxl normal">Magazine.</h1>
+                    <span class="font-md normal ">A MAGAZINE THEME</span>
+                </div>
+                <div class="footer-nav flex ">
+                    <a href="https://theuselessweb.com/" class="white-text font-md semi-bold">Home</a>
+                    <a href="https://theuselessweb.com/" class="white-text font-md semi-bold">Fashion</a>
+                    <a href="https://theuselessweb.com/" class="white-text font-md semi-bold">Travel</a>
+                    <a href="https://theuselessweb.com/" class="white-text font-md semi-bold">Feature</a>
+                    <a href="https://theuselessweb.com/" class="white-text font-md semi-bold">Events</a>
+
+                </div>
+                <div class="footer-social flex">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-twitter"></i>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="copyright white-text flex sp-b">
+                <p>© 2022 Magazine - Powered by Rishi Theme</p>
+                <p>Privacy Policy | Terms and Conditions</p>
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- -------------------script ----------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+    <script src="index.js"></script>
+    <script src="swiper.js"></script>
+</body>
+
+</html>
